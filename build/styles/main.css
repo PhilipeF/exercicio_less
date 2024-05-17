@@ -1,5 +1,8 @@
-body {
-  background-color: #f5f6fa;
+.displayFlex {
+  display: flex;
+}
+li {
+  list-style: none;
 }
 * {
   margin: 0;
@@ -7,8 +10,8 @@ body {
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
 }
-li {
-  list-style: none;
+body {
+  background-color: #f5f6fa;
 }
 .container {
   max-width: 1024px;
